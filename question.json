@@ -1,0 +1,469 @@
+[
+  
+  {
+    "question": "What is the correct syntax to output 'Hello World' in C?",
+    "answers": [
+      {"text": "printf('Hello World');", "correct": false},
+      {"text": "echo('Hello World');", "correct": false},
+      {"text": "printf(\"Hello World\");", "correct": true},
+      {"text": "print(\"Hello World\")", "correct": false}
+    ]
+  },
+  {
+    "question": "C language was developed by?",
+    "answers": [
+      {"text": "James Gosling", "correct": false},
+      {"text": "Dennis Ritchie", "correct": true},
+      {"text": "Bjarne Stroustrup", "correct": false},
+      {"text": "Guido van Rossum", "correct": false}
+    ]
+  },
+  {
+    "question": "Which header file is required for 'printf' function?",
+    "answers": [
+      {"text": "conio.h", "correct": false},
+      {"text": "stdlib.h", "correct": false},
+      {"text": "stdio.h", "correct": true},
+      {"text": "math.h", "correct": false}
+    ]
+  },
+  {
+    "question": "Which of the following is a correct variable name in C?",
+    "answers": [
+      {"text": "int 1value;", "correct": false},
+      {"text": "int value1;", "correct": true},
+      {"text": "int value-1;", "correct": false},
+      {"text": "int @value;", "correct": false}
+    ]
+  },
+  {
+    "question": "Which symbol is used to indicate a preprocessor directive?",
+    "answers": [
+      {"text": "@", "correct": false},
+      {"text": "#", "correct": true},
+      {"text": "$", "correct": false},
+      {"text": "&", "correct": false}
+    ]
+  },
+  {
+    "question": "What is the extension of a C file?",
+    "answers": [
+      {"text": ".cpp", "correct": false},
+      {"text": ".class", "correct": false},
+      {"text": ".c", "correct": true},
+      {"text": ".java", "correct": false}
+    ]
+  },
+  {
+    "question": "Which data type is used to store decimal numbers?",
+    "answers": [
+      {"text": "char", "correct": false},
+      {"text": "float", "correct": true},
+      {"text": "int", "correct": false},
+      {"text": "bool", "correct": false}
+    ]
+  },
+  {
+    "question": "Which of these is a loop in C?",
+    "answers": [
+      {"text": "repeat", "correct": false},
+      {"text": "foreach", "correct": false},
+      {"text": "for", "correct": true},
+      {"text": "next", "correct": false}
+    ]
+  },
+  {
+    "question": "What is the output of: printf(\"%d\", 5+5);",
+    "answers": [
+      {"text": "55", "correct": false},
+      {"text": "10", "correct": true},
+      {"text": "5+5", "correct": false},
+      {"text": "Error", "correct": false}
+    ]
+  },
+  {
+    "question": "What is used to end a statement in C?",
+    "answers": [
+      {"text": ":", "correct": false},
+      {"text": ".", "correct": false},
+      {"text": ";", "correct": true},
+      {"text": ",", "correct": false}
+    ]
+  },
+
+  
+  {
+    "question": "Who is the creator of C++?",
+    "answers": [
+      {"text": "Dennis Ritchie", "correct": false},
+      {"text": "Bjarne Stroustrup", "correct": true},
+      {"text": "James Gosling", "correct": false},
+      {"text": "Mark Zuckerberg", "correct": false}
+    ]
+  },
+  {
+    "question": "Which operator is used to create objects in C++?",
+    "answers": [
+      {"text": "malloc", "correct": false},
+      {"text": "new", "correct": true},
+      {"text": "create", "correct": false},
+      {"text": "object", "correct": false}
+    ]
+  },
+  {
+    "question": "Which feature is not in C but in C++?",
+    "answers": [
+      {"text": "Functions", "correct": false},
+      {"text": "Classes", "correct": true},
+      {"text": "Pointers", "correct": false},
+      {"text": "Loops", "correct": false}
+    ]
+  },
+  {
+    "question": "What is the extension of a C++ file?",
+    "answers": [
+      {"text": ".cpp", "correct": true},
+      {"text": ".c", "correct": false},
+      {"text": ".ccs", "correct": false},
+      {"text": ".cp", "correct": false}
+    ]
+  },
+  {
+    "question": "Which keyword is used to inherit a class?",
+    "answers": [
+      {"text": "inherits", "correct": false},
+      {"text": "extends", "correct": false},
+      {"text": "public", "correct": true},
+      {"text": "include", "correct": false}
+    ]
+  },
+  {
+    "question": "What is the use of ‘this’ pointer in C++?",
+    "answers": [
+      {"text": "To refer current object", "correct": true},
+      {"text": "To refer next object", "correct": false},
+      {"text": "To refer parent class", "correct": false},
+      {"text": "To refer main class", "correct": false}
+    ]
+  },
+  {
+    "question": "Which access specifier makes a member visible everywhere?",
+    "answers": [
+      {"text": "private", "correct": false},
+      {"text": "protected", "correct": false},
+      {"text": "public", "correct": true},
+      {"text": "global", "correct": false}
+    ]
+  },
+  {
+    "question": "What is function overloading?",
+    "answers": [
+      {"text": "Function with same name but different parameters", "correct": true},
+      {"text": "Function with same name", "correct": false},
+      {"text": "Multiple functions together", "correct": false},
+      {"text": "None of these", "correct": false}
+    ]
+  },
+  {
+    "question": "What is STL in C++?",
+    "answers": [
+      {"text": "Standard Template Library", "correct": true},
+      {"text": "Simple Template Library", "correct": false},
+      {"text": "Standard Type Library", "correct": false},
+      {"text": "String Template Library", "correct": false}
+    ]
+  },
+  {
+    "question": "Which is used to terminate a class?",
+    "answers": [
+      {"text": "return", "correct": false},
+      {"text": "exit", "correct": false},
+      {"text": "~Destructor()", "correct": true},
+      {"text": "terminate", "correct": false}
+    ]
+  },
+  
+  
+
+  
+  {
+    "question": "What does CSS stand for?",
+    "answers": [
+      { "text": "Cascading Style Sheets", "correct": true },
+      { "text": "Creative Style Sheets", "correct": false },
+      { "text": "Computer Style Sheets", "correct": false },
+      { "text": "Colorful Style Sheets", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property is used to change the text color in CSS?",
+    "answers": [
+      { "text": "text-color", "correct": false },
+      { "text": "font-color", "correct": false },
+      { "text": "color", "correct": true },
+      { "text": "background-color", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "answers": [
+      { "text": "font-style: bold;", "correct": false },
+      { "text": "text-weight: bold;", "correct": false },
+      { "text": "font-weight: bold;", "correct": true },
+      { "text": "style: bold;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which CSS property is used to set the background color?",
+    "answers": [
+      { "text": "color", "correct": false },
+      { "text": "background", "correct": false },
+      { "text": "bgcolor", "correct": false },
+      { "text": "background-color", "correct": true }
+    ]
+  },
+  {
+    "question": "How do you center text in CSS?",
+    "answers": [
+      { "text": "text-align: center;", "correct": true },
+      { "text": "align: center;", "correct": false },
+      { "text": "text-center: true;", "correct": false },
+      { "text": "center-text: yes;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property controls the size of text?",
+    "answers": [
+      { "text": "text-size", "correct": false },
+      { "text": "font-style", "correct": false },
+      { "text": "font-size", "correct": true },
+      { "text": "size", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the correct CSS syntax to select all `<p>` elements?",
+    "answers": [
+      { "text": "p { }", "correct": true },
+      { "text": "#p { }", "correct": false },
+      { "text": ".p { }", "correct": false },
+      { "text": "<p> { }", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you apply a class in CSS?",
+    "answers": [
+      { "text": "#classname", "correct": false },
+      { "text": ".classname", "correct": true },
+      { "text": "classname", "correct": false },
+      { "text": "*classname", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property adds space inside an element’s border?",
+    "answers": [
+      { "text": "margin", "correct": false },
+      { "text": "padding", "correct": true },
+      { "text": "spacing", "correct": false },
+      { "text": "gap", "correct": false }
+    ]
+  },
+  
+
+  
+  {
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "answers": [
+      { "text": "int", "correct": false },
+      { "text": "float", "correct": false },
+      { "text": "var", "correct": true },
+      { "text": "char", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you write 'Hello World' in an alert box?",
+    "answers": [
+      { "text": "msg('Hello World');", "correct": false },
+      { "text": "alert('Hello World');", "correct": true },
+      { "text": "prompt('Hello World');", "correct": false },
+      { "text": "console.log('Hello World');", "correct": false }
+    ]
+  },
+  {
+    "question": "Which operator is used for addition in JavaScript?",
+    "answers": [
+      { "text": "++", "correct": false },
+      { "text": "+", "correct": true },
+      { "text": "add", "correct": false },
+      { "text": "&", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you create a function in JavaScript?",
+    "answers": [
+      { "text": "def myFunction() {}", "correct": false },
+      { "text": "fun myFunction() {}", "correct": false },
+      { "text": "function myFunction() {}", "correct": true },
+      { "text": "create function myFunction() {}", "correct": false }
+    ]
+  },
+  {
+    "question": "What will `typeof 'hello'` return?",
+    "answers": [
+      { "text": "text", "correct": false },
+      { "text": "word", "correct": false },
+      { "text": "char", "correct": false },
+      { "text": "string", "correct": true }
+    ]
+  },
+  
+  {
+    "question": "Which method adds an element to the end of an array?",
+    "answers": [
+      { "text": "push()", "correct": true },
+      { "text": "append()", "correct": false },
+      { "text": "add()", "correct": false },
+      { "text": "insert()", "correct": false }
+    ]
+  },
+  
+  {
+    "question": "What will `console.log(2 + '2')` output?",
+    "answers": [
+      { "text": "'22'", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "NaN", "correct": false },
+      { "text": "Error", "correct": false }
+    ]
+  },
+  {
+    "question": "What does DOM stand for?",
+    "answers": [
+      { "text": "Document Object Model", "correct": true },
+      { "text": "Data Object Management", "correct": false },
+      { "text": "Dynamic Output Method", "correct": false },
+      { "text": "Document Oriented Method", "correct": false }
+    ]
+  },
+  {
+    "question": "What will `typeof null` return in JavaScript?",
+    "answers": [
+      {"text": "object", "correct": true},
+      {"text": "null", "correct": false},
+      {"text": "undefined", "correct": false},
+      {"text": "boolean", "correct": false}
+    ]
+  },
+  {
+    "question": "Which method is used to add one or more elements to the end of an array?",
+    "answers": [
+      {"text": "push()", "correct": true},
+      {"text": "append()", "correct": false},
+      {"text": "add()", "correct": false},
+      {"text": "insert()", "correct": false}
+    ]
+  },
+  {
+    "question": "How can you convert a string to an integer in JavaScript?",
+    "answers": [
+      {"text": "parseInt()", "correct": true},
+      {"text": "int()", "correct": false},
+      {"text": "Number.parse()", "correct": false},
+      {"text": "stringToInt()", "correct": false}
+    ]
+  },
+  {
+    "question": "Which operator is used to assign a value to a variable?",
+    "answers": [
+      {"text": "=", "correct": true},
+      {"text": "==", "correct": false},
+      {"text": "===", "correct": false},
+      {"text": ":=", "correct": false}
+    ]
+  },
+  {
+    "question": "Which keyword is used to declare a block-scoped variable?",
+    "answers": [
+      {"text": "let", "correct": true},
+      {"text": "var", "correct": false},
+      {"text": "int", "correct": false},
+      {"text": "define", "correct": false}
+    ]
+  },
+  {
+    "question": "What does the `isNaN()` function check?",
+    "answers": [
+      {"text": "If a value is Not-a-Number", "correct": true},
+      {"text": "If a value is null", "correct": false},
+      {"text": "If a value is undefined", "correct": false},
+      {"text": "If a value is a string", "correct": false}
+    ]
+  },
+  {
+    "question": "Which built-in method returns the character at a specified index?",
+    "answers": [
+      {"text": "charAt()", "correct": true},
+      {"text": "getChar()", "correct": false},
+      {"text": "char()", "correct": false},
+      {"text": "characterAt()", "correct": false}
+    ]
+  },
+  {
+    "question": "Which JavaScript loop is guaranteed to execute at least once?",
+    "answers": [
+      {"text": "do...while", "correct": true},
+      {"text": "while", "correct": false},
+      {"text": "for", "correct": false},
+      {"text": "foreach", "correct": false}
+    ]
+  },
+  {
+    "question": "Which method converts an object to a JSON string?",
+    "answers": [
+      {"text": "JSON.stringify()", "correct": true},
+      {"text": "JSON.parse()", "correct": false},
+      {"text": "JSON.encode()", "correct": false},
+      {"text": "JSON.objectToString()", "correct": false}
+    ]
+  },
+  {
+    "question": "What does `===` do in JavaScript?",
+    "answers": [
+      {"text": "Strict comparison", "correct": true},
+      {"text": "Assignment", "correct": false},
+      {"text": "Loose comparison", "correct": false},
+      {"text": "Type coercion", "correct": false}
+    ]
+  },
+  {
+    "question": "Which function is used to delay execution of code?",
+    "answers": [
+      {"text": "setTimeout()", "correct": true},
+      {"text": "delay()", "correct": false},
+      {"text": "pause()", "correct": false},
+      {"text": "timeout()", "correct": false}
+    ]
+  },
+  {
+    "question": "Which object in JavaScript handles dates and times?",
+    "answers": [
+      {"text": "Date", "correct": true},
+      {"text": "Time", "correct": false},
+      {"text": "Calendar", "correct": false},
+      {"text": "Clock", "correct": false}
+    ]
+  },
+  {
+    "question": "What does `Array.isArray()` return?",
+    "answers": [
+      {"text": "true if the argument is an array", "correct": true},
+      {"text": "false if the argument is an array", "correct": false},
+      {"text": "the length of array", "correct": false},
+      {"text": "undefined", "correct": false}
+    ]
+  }
+]
+
+
+
+
+  

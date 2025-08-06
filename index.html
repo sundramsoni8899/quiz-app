@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="startScreen">
+        <label for="question-count">How many questions you want to attempt?</label>
+        <select  id="question-count">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+        </select>
+        <button onclick="startQuiz()">Start Quiz</button>
+        <div id="previousScores" style="margin-top: 20px;"></div>
+        <button id = "clear-history">Clear History</button>
+
+    </div>
+    <div class="app">
+        <div id="timer" style="font-size: 18px; font-weight: bold; color: red;"></div>
+        <h1>
+            Simple Quiz
+        </h1>
+    
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <button id="next-btn">Next</button>
+            <button id="quit-btn">Quit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script  src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
