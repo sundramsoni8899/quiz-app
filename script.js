@@ -75,7 +75,7 @@ document.getElementById("quit-btn").addEventListener("click",()=>{
     if(confirmQuit){
         clearInterval(questionTimer) ;
         timeLeft=timePerQuestion;
-        document.getElementById("timer".textContent)
+        document.getElementById("timer").textContent = "";
         document.querySelector(".app").style.display = "none";
         document.getElementById("startScreen").style.display = "block";
         document.getElementById("quit-btn").style.display = "none"
@@ -192,7 +192,7 @@ function showPreviousScores(){
     }
     let html = "<h3>Previous Scores:</h3><ul>";
     savedScores.slice(-5).reverse().forEach(score => {
-        html += <li>${score.date} - ${score.score}/${score.total}</li>;
+        html += `<li>${score.date} - ${score.score}/${score.total}</li>`;
 
     });
     html +="</ul>"
