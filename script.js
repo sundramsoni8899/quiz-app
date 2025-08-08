@@ -54,6 +54,8 @@ function updateQuestionTimerDisplay(){
  }
 
 function startQuiz(){
+     const heading = document.querySelector(".BigHeading");
+    if (heading) heading.remove(); 
     quizEnded = false
     clearInterval(questionTimer);
     const count = document.getElementById("question-count").value;
